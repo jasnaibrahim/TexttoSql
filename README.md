@@ -9,7 +9,7 @@ This project enables users to interact with an Odoo PostgreSQL database through 
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/jasnaibrahim/TexttoSql.git
-   cd Text2sql
+   cd Text2Sql
 
 2.**Install Dependencies**: 
 
