@@ -1,6 +1,6 @@
 # TexttoSql
 
-# SQL Chatbot for Odoo Database
+# SQL Chatbot for Odoo Postgre Database
 
 This project enables users to interact with an Odoo PostgreSQL database through natural language. It converts user questions into SQL queries and retrieves relevant data using an AI chatbot.
 
