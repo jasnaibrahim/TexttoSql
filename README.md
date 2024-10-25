@@ -8,7 +8,7 @@ This project enables users to interact with an Odoo PostgreSQL database through 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/sql-chatbot
+   git clone https://github.com/jasnaibrahim/TexttoSql.git
    cd Text2sql
 
 2.**Install Dependencies**: 
