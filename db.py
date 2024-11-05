@@ -4,7 +4,7 @@ from psycopg2 import OperationalError  # For error handling with PostgreSQL
 import config
 import streamlit as st
 
-@st.cache_resource(ttl="1h")
+
 def create_database_connection():
     """
     Establish a connection to the PostgreSQL database using SQLAlchemy and LangChain's SQLDatabase utility.
