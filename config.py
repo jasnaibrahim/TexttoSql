@@ -1,8 +1,5 @@
-import os
-from dotenv import load_dotenv
+import streamlit as st
 
-# Load environment variables from .env file
-load_dotenv()
-
-DATABASE_URI = os.getenv("DATABASE_URI")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# Fetching secrets from Streamlit's secrets manager
+DATABASE_URL = st.secrets["DATABASE_URL"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
