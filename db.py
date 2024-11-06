@@ -13,7 +13,7 @@ def create_database_connection():
         SQLDatabase: A connection to the database if successful; otherwise, raises an OperationalError.
     """
     try:
-        # Use DATABASE_URL from the config, which gets it from Streamlit secrets
+        # Use DATABASE_URL from config, which gets it from Streamlit secrets
         db = SQLDatabase(create_engine(config.DATABASE_URL))
         return db
     except OperationalError:
